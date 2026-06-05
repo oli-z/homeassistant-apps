@@ -1,0 +1,22 @@
+configuration:
+  grocy_url:
+    name: "Grocy URL"
+    description: "Die vollständige URL zu deiner Grocy-Instanz ohne Port (z. B. http://192.168.1.50)"
+  grocy_api_key:
+    name: "Grocy API-Key"
+    description: "Der API-Key, der in 'Einstellungen -> API-Schlüssel' generiert wurde"
+  grocy_port:
+    name: "Grocy Port"
+    description: "Der Netzwerk-Port, über den Grocy erreichbar ist"
+  llm_ai_model:
+    name: "KI Modell"
+    description: "Das zu verwendende LLM (Standard: gemini/gemini-flash-lite-latest)"
+  llm_api_key:
+    name: "KI API-Key"
+    description: "API-Key für den gewählten KI-Anbieter (z. B. Google Gemini oder OpenAI)"
+  llm_base_url:
+    name: "Alternative KI Base-URL"
+    description: "Optional: Eine Base-URL, falls ein lokaler LLM-Server (wie Ollama) genutzt wird"
+  log_level:
+    name: "Log-Level"
+    description: "Bestimmt, wie detailliert die Protokollausgabe des Add-ons im Log-Tab sein soll"
