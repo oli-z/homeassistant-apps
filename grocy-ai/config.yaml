@@ -1,6 +1,6 @@
 name: "grocy.AI"
 description: "grocy.AI ist ein LLM-Assistent für Grocy und bietet Rezeptvorschläge und Tipps zur Lagerverwaltung."
-version: "2026.6.5"
+version: "2026.6.6"
 image: "ghcr.io/oli-z/grocy-ai"
 slug: "grocy-ai"
 arch:
