@@ -17,6 +17,9 @@ configuration:
   llm_base_url:
     name: "Alternative KI Base-URL"
     description: "Optional: Eine Base-URL, falls ein lokaler LLM-Server (wie Ollama) genutzt wird"
+  cache_duration:
+    name: "Cache-Timeout"
+    description: "Cache-Timeout in Sekunden. Nach Ablauf dieser Zeit wird die Antwort der AI neu geladen, davor wird eine gecachte Antwort verwendet."
   log_level:
     name: "Log-Level"
     description: "Bestimmt, wie detailliert die Protokollausgabe des Add-ons im Log-Tab sein soll"

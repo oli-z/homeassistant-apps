@@ -30,4 +30,5 @@ schema:
   llm_ai_model: "str"
   llm_api_key: "str?"
   llm_base_url: "str?"
+  cache_duration: "int?"
   log_level: "list(debug|info|warning|error|critical)"
